@@ -9,6 +9,7 @@ obfuscates the basic speed of the inference.
 
 The basic structure of the code is:
 
+```
 load model
 load image
 do one warmup inference
@@ -23,6 +24,7 @@ loop 10 times:
     print iteration time
 
 print overall speed
+```
 
 Any contributions to the repository are welcome, please create a pull request.
 
