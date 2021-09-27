@@ -38,6 +38,6 @@ The repository is split by object detection method (yolov3, yolov4, etc
 
 | model | size |platform | speed | fps | link to code | comments |
 | --- | --- | --- | --- | --- | --- | --- |
-| Yolov5s | 320 | pytorch | 0.0794ms | 12.59 | | ultralytics model from pytorch hub, jp 4.6, pytorch 1.9 | 
+| Yolov5s | 320 | pytorch | 0.0794ms | 12.59 | [link](https://github.com/mosheliv/jetson-nano-object-detection-benchmark/blob/ca13d977c15583cd7f37b55cae8d52edabfaa3f7/yolov5/pytorch_hub.py) | ultralytics model from pytorch hub, jp 4.6, pytorch 1.9 | 
 | Yolov5s | 418 | pytorch | 0.1159ms | 8.62 | | ultralytics model from pytorch hub, jp 4.6, pytorch 1.9 |
 | Yolov5s | 640 | pytorch | 0.1884ms | 5.30 | | ultralytics model from pytorch hub, jp 4.6, pytorch 1.9 |
