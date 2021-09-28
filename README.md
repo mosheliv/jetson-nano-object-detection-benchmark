@@ -41,9 +41,9 @@ The repository is split by object detection method (yolov3, yolov4, etc
 | Yolov5s | 320 | pytorch | 0.090ms | 11 | [link](https://github.com/mosheliv/jetson-nano-object-detection-benchmark/yolov5/pytorch_hub.py) | ultralytics model from pytorch hub, jp 4.6, pytorch 1.9 | 
 | Yolov5s | 418 | pytorch | 0.121ms | 8.23 | [link](https://github.com/mosheliv/jetson-nano-object-detection-benchmark/yolov5/pytorch_hub.py) | ultralytics model from pytorch hub, jp 4.6, pytorch 1.9 |
 | Yolov5s | 640 | pytorch | 0.1934ms | 5.16 | [link](https://github.com/mosheliv/jetson-nano-object-detection-benchmark/yolov5/pytorch_hub.py) | ultralytics model from pytorch hub, jp 4.6, pytorch 1.9 |
-| Yolov5s | 320 | tensorrtx | 0.0357ms | 27.97 | [link](https://github.com/mosheliv/jetson-nano-object-detection-benchmark/yolov5/tensorrtx.py) | from tensorrtx, see code for link |
-| Yolov5s | 418 | tensorrtx | 0.0815ms | 12.27 | [link](https://github.com/mosheliv/jetson-nano-object-detection-benchmark/yolov5/tensorrtx.py) | from tensorrtx, see code for link |
-| Yolov5s | 320 | tensorrtx | 0.1008ms | 9.917 | [link](https://github.com/mosheliv/jetson-nano-object-detection-benchmark/yolov5/tensorrtx.py) | from tensorrtx, see code for link |
+| Yolov5s | 320 | tensorrtx | 0.0357ms | 27.97 | [link](https://github.com/mosheliv/jetson-nano-object-detection-benchmark/yolov5/tensorrtx.py) | from tensorrtx, see code for link. Note that size needs to be changed in yololayer.h|
+| Yolov5s | 418 | tensorrtx | 0.0815ms | 12.27 | [link](https://github.com/mosheliv/jetson-nano-object-detection-benchmark/yolov5/tensorrtx.py) | from tensorrtx, see code for link. Note that size needs to be changed in yololayer.h |
+| Yolov5s | 320 | tensorrtx | 0.1008ms | 9.917 | [link](https://github.com/mosheliv/jetson-nano-object-detection-benchmark/yolov5/tensorrtx.py) | from tensorrtx, see code for link. Note that size needs to be changed in yololayer.h |
 
 ## NVIDIA SSD300
 | model | size |platform | speed | fps | link to code | comments |
