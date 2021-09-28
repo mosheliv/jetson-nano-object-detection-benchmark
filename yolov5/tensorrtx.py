@@ -1,5 +1,4 @@
-An example that uses TensorRT's Python api to make inferences.
-"""
+#see https://github.com/wang-xinyu/tensorrtx/tree/master/yolov5
 import ctypes
 import os
 import random
