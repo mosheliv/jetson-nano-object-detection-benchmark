@@ -1,7 +1,7 @@
 # Jetson Nano Object Detection Benchmark
 
-This repository was created becuase of the difficulty in finding consistent, easy to use and understand options regarding deploying object detection on the Jetson Nano.
-The information and published benchmarks usually borderline misleading or just not reproducible.
+This repository was created becuase of the difficulty in finding consistent, easy to use and understand information regarding deploying object detection on the Jetson Nano.
+The information and published benchmarks are usually borderline misleading or just not reproducible.
 
 In this repository i'll summerize my experiments with code that measure the inference and post processing 
 (one of the usual cheats is not measuring the nms/postprocessing which sometimes takes longer than the actual inference). I also did not use deepstream/gstreamer as it 
