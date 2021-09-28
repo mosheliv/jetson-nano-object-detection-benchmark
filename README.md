@@ -28,7 +28,7 @@ print overall speed
 
 Any contributions to the repository are welcome, please create a pull request.
 
-All expriments were done with the same image, https://ultralytics.com/images/bus.jpg
+All expriments were done with the same image, https://ultralytics.com/images/bus.jpg, same nano with jetpack 4.6 and MAXN power.
 
 I do not include in this repository mAP results etc, as basically its best to test the models on your own data and see how well it works.
 
@@ -46,5 +46,4 @@ The repository is split by object detection method (yolov3, yolov4, etc
 | model | size |platform | speed | fps | link to code | comments |
 | --- | --- | --- | --- | --- | --- | --- |
 | SSD300 | 300 | pytorch | 0.66ms | 1.48 | | NVIDIA SSD example |
-
 
